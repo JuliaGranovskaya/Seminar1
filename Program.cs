@@ -34,6 +34,8 @@
 // else
 //     Console.WriteLine("Incorrect number");
 
+// Домашнее задание
+
 // Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 // Console.Write("First number: " );
 // int number1 = Convert.ToInt32(Console.ReadLine());
@@ -75,14 +77,36 @@
 //     }
 // else Console.WriteLine(""+ number +" -> no");
 
+// Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все четные числа в промежутке от 1 до N.
+// Console.Write("Number: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int count = 2;
+// Console.Write(""+ N +" -> ");
+// while (count < N)
+//     {
+//         Console.Write(""+ count +" ");
+//         count = count + 2;
+//     };
+
+// Задачи из презентации
+
 // Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
 // Console.Write("Number: ");
-// int a = Convert.ToInt32(Console.ReadLine());
-// int b = 0;
-// Console.WriteLine(""+ a +" -> ");
-// while (b < a)
-//     {Console.WriteLine(b = b - a);
-//     b = b + 1;
+// int N = Convert.ToInt32(Console.ReadLine());
+// int count = 0 - N;
+// Console.Write(""+ N +" -> ");
+// while (count < N)
+//     {
+//         Console.Write(""+ count +" ");
+//         count++;
 //     };
 
 // Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
+// Console.Write("Введите трехзначное число: " );
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number > 99 && number < 1000)
+// {
+//     int result = number % 10;
+//     Console.WriteLine(""+ number +" -> "+ result +"");
+// }
+// else Console.WriteLine("Некорректное значение");
